@@ -24,4 +24,6 @@ services:
         sync: false # Optional for GitHub OAuth
       - key: AUTH_GITHUB_CLIENT_SECRET
         sync: false # Optional for GitHub OAuth
+      - key: DATABASE_URL
+        sync: true
     autoDeploy: true
